@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language = "JavaScript">
+    function rollIn(daImage)
+{
+	daImage.src="images/roll2.jpg";
+}
+    
+    function rollOut(daImage)
+{
+	daImage.src="images/roll1.png";
+}
+</script>
+<font face="Trebuchet" color="White">
+</head>
+<center>
+<h1>Image Page</h1>
+<body bgcolor = "#FA58F4">
+
+<center>
+<br/> <br/> 
+<img src="images/roll1.jpg" width = 400 height=400 onmouseout="rollOut(this)" onmouseover="rollIn(this)"/>
+<br/> <br/>
+<p>Click here to <a href="index.html">return to my home page. </a>   
+</body>
+</html>
+
